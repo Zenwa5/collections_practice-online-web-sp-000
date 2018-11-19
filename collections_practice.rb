@@ -25,3 +25,7 @@ end
   swapped_array[destination_index] = original
   swapped_array
 end
+
+def reverse_array
+
+end
