@@ -30,3 +30,23 @@ def reverse_array(array)
   array.reverse
   
 end
+
+def kesha_maker(arr)
+  arr.each {|a| a[2] = "$"}
+end
+ def find_a(word)
+  word.select {|arr| arr.start_with?("a")}
+end
+ def sum_array(array)
+  array.inject(0) {|sum,x| sum + x }
+end
+ def add_s(arr)
+  arr.each_with_index.collect do |word, i|
+    if i == 1
+      word
+    else
+      word + "s"
+    end
+  end
+end
+ 
